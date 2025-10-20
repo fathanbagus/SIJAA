@@ -47,49 +47,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataClasses1.designer.cs">
+    <Compile Include="DataBase.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataClasses1.dbml</DependentUpon>
+      <DependentUpon>DataBase.dbml</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Helper.cs" />
-    <Compile Include="Master Teacher Form.cs">
+    <Compile Include="FormMasterTeacher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Master Teacher Form.Designer.cs">
-      <DependentUpon>Master Teacher Form.cs</DependentUpon>
+    <Compile Include="FormMasterTeacher.Designer.cs">
+      <DependentUpon>FormMasterTeacher.cs</DependentUpon>
     </Compile>
-    <Compile Include="MasterStudentForm.cs">
+    <Compile Include="FormMasterStudent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterStudentForm.Designer.cs">
-      <DependentUpon>MasterStudentForm.cs</DependentUpon>
+    <Compile Include="FormMasterStudent.Designer.cs">
+      <DependentUpon>FormMasterStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Master Teacher Form.resx">
-      <DependentUpon>Master Teacher Form.cs</DependentUpon>
+    <EmbeddedResource Include="FormMasterTeacher.resx">
+      <DependentUpon>FormMasterTeacher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MasterStudentForm.resx">
-      <DependentUpon>MasterStudentForm.cs</DependentUpon>
+    <EmbeddedResource Include="FormMasterStudent.resx">
+      <DependentUpon>FormMasterStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,13 +100,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="DataClasses1.dbml">
+    <None Include="DataBase.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <LastGenOutput>DataBase.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DataClasses1.dbml.layout">
-      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    <None Include="DataBase.dbml.layout">
+      <DependentUpon>DataBase.dbml</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
